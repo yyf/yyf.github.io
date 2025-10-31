@@ -58,11 +58,26 @@ h2 {
     margin-top: 2rem;
 }
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-link:visited {
+    color: inherit;
+}
+
+.card-link:hover {
+    color: inherit;
+}
+
 .card {
     background: #fff;
     border: 2px solid #000;
     padding: 2rem;
     transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
 }
 
 .card-image {
