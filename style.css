@@ -110,7 +110,7 @@ h2 {
 
 .card-image {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 3 / 1;
     object-fit: cover;
     border: none;
     flex-shrink: 0;
